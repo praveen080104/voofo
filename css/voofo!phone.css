@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    background-color: #0B0019;
+    font-family:'Poppins', sans-serif;
+}
+.voofo_image_phone{
+    width:700px;
+    height:700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form,.login-form1{
+    color:white;
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 50px;
+}
+#sign-in{
+    font-size:4.5rem;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.email-password input{
+    margin:15px;
+    width:930px;
+    height:200px;
+    font-family:'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+    background-color: #8c8c8c4d;
+    color: #f3f3f3;;
+}
+.email-password1 input{
+    margin:15px;
+    width:930px;
+    height:200px;
+    font-family:'Poppins', sans-serif;
+    font-size:50px;
+    font-weight:700;
+    background-color: #8c8c8c4d;
+    color: #f3f3f3;;
+}
+.show_password{
+    padding-left:10px;
+}
+.show_password input{
+    width:45px;
+    height: 45px;
+}
+.submit-button button{
+    width:930px;
+    height:200px;
+    padding:18px;
+    margin:15px;
+    font-size: 50px;
+    padding-top :9px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bolder;
+    background-color:	#E50914;
+    color:white;
+}
+#new-to-voofo{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sign-uplink{
+    text-decoration: none;
+    color:white;
+}
+.sign-uplink:hover{
+    text-decoration: underline;
+}
+.login-page,.login-page1{
+    border:1.5px solid white;
+    color:white;
+    background: transparent;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,.75);
+    opacity:12;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.inside-login-form,.inside-login-form1{
+    padding: 1.5px;
+}
+.whole_slide{
+    border:1px solid white;
+    width:910px;
+    height: 910px;
+    padding:10px;
+    background-color:rgba(0,0,0,.75);
+    border-radius: 25px;
+}
+.whole_whole_slide{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+ .slider-container {
+    width: 900px;
+    height:900px;
+    overflow: hidden;
+    position: relative;
+    border:5px solid black;
+ }
+.slider{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    min-width: 100%;
+    flex-shrink: 0;
+  }
+
+  .slide img {
+    width: 890px;
+    height: 890px;
+    height: auto;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 100%;
+    user-select: none;
+}
+ .prev {
+    left: 5px;
+    font-size: 100px;
+    background-color: transparent;
+  }
+
+  .next {
+    right: 5px;
+    font-size: 100px;
+    background-color: transparent;
+  }
+  input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -70px; 
+    transition: 0.2s ease-out;
+}
+
+input::-webkit-input-placeholder {
+    transition: 0.2s ease-in;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    height: 210px;
+    padding-bottom: 0px;
+    transition: 0.2s ease-in;
+}
+
+input[type="text"], input[type="password"] {
+    height: 210px;
+    transition: 0.2s ease-in;
+}
+.submit-button1{
+    width:930px;
+    height:200px;
+    padding:18px;
+    margin:15px;
+    font-size: 50px;
+    padding-top :9px;
+    font-family:'Poppins', sans-serif;
+    font-weight: bolder;
+    background-color:	#E50914;
+    color:white;
+}
+#aldredy_a_member{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+#sign-up{
+    font-size:4.5rem;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
